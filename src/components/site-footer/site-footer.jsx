@@ -29,7 +29,7 @@ const SiteFooter = () => {
                             <a className="site-footer__link" href="#home">Домой</a>
                         </li>
                         <li className="site-footer__item">
-                            <a className="site-footer__link" href="#">Как это происходит?</a>
+                            <a className="site-footer__link" href="#how-it-happened">Как это происходит?</a>
                         </li>
                         <li className="site-footer__item">
                             <a className="site-footer__link" href="#clients">Наши клиенты</a>
@@ -38,7 +38,7 @@ const SiteFooter = () => {
                             <a className="site-footer__link" href="#team">Команда</a>
                         </li>
                         <li className="site-footer__item">
-                            <a className="site-footer__link" href="#">Связаться с нами</a>
+                            <a className="site-footer__link" href="#contact">Связаться с нами</a>
                         </li>
                         <li className="site-footer__item">
                             <a className="site-footer__link" href="#privacy-policy">Политика конфидиенциальности</a>
