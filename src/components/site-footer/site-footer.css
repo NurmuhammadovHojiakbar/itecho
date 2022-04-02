@@ -1,7 +1,7 @@
 .site-footer{
     color: #fff;
     padding: 170px 25px 60px 25px;
-    background: url("../../assets/images/footer-bg.png") no-repeat center;
+    background: url("../../assets/images/footer-bg.png") no-repeat 0% center;
 }
 
 .site-footer__container{

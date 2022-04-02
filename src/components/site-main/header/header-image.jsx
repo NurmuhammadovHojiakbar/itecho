@@ -5,9 +5,11 @@ import SmallDron from "./small-dron";
 const MainHeaderImage = () => {
     return (
         <div className="main-header__image">
-            <BigDron />
-            <SmallDron />
-            <img src={HeaderImage} alt="header-intro" />
+            <div className="main-header__image-wrapper">
+                <BigDron />
+                <SmallDron />
+                <img src={HeaderImage} alt="header-intro" />
+            </div>
         </div>
     );
 }
