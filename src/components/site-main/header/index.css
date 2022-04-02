@@ -198,6 +198,10 @@
     .big-dron{
         width: 120px;
     }
+
+    .dron-parrak{
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width:1150px){
