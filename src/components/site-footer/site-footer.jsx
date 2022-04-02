@@ -18,10 +18,10 @@ const SiteFooter = () => {
                     <div className="address-info">
                         <p>Новосибирск, Россия, ул. Красный проспект, д. 65 офис 48а <br /> <a className="address-info__tel" href="tel:+73833542900">+7 (383) 354-29-00</a></p>                        
                         <div className="address-info__social">
-                            <a className="address-info__social-links address-info__social-links-facebook" href="https://facebook.com"/>
-                            <a className="address-info__social-links address-info__social-links-twitter" href="https://twitter.com"/>
-                            <a className="address-info__social-links address-info__social-links-linkedin" href="https://linkedin.com"/>
-                            <a className="address-info__social-links address-info__social-links-instagram" href="https://instagram.com"/>
+                            <a className="address-info__social-links address-info__social-links-facebook" href="https://facebook.com"></a>
+                            <a className="address-info__social-links address-info__social-links-twitter" href="https://twitter.com"></a>
+                            <a className="address-info__social-links address-info__social-links-linkedin" href="https://linkedin.com"></a>
+                            <a className="address-info__social-links address-info__social-links-instagram" href="https://instagram.com"></a>
                         </div>
                     </div>
                     <ul className="site-footer__list">
