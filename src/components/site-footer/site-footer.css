@@ -58,27 +58,8 @@
 }
 
 .address-info__social-links{
-    width: 24px;
-    height: 24px;
     margin-left: 22px;
     display: inline-block;
-}
-
-.address-info__social-links-facebook{
-    background: url("../../assets/images/facebook-icon.svg") no-repeat center;
-    background-size: contain;
-}
-.address-info__social-links-twitter{
-    background: url("../../assets/images/twitter-icon.svg") no-repeat center;
-    background-size: contain;
-}
-.address-info__social-links-linkedin{
-    background: url("../../assets/images/linkedin-icon.svg") no-repeat center;
-    background-size: contain;
-}
-.address-info__social-links-instagram{
-    background: url("../../assets/images/instagram-icon.svg") no-repeat center;
-    background-size: contain;
 }
 
 .site-footer__list{
