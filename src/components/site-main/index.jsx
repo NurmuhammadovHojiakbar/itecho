@@ -2,6 +2,7 @@ import "./index.css"
 import SiteMainHeader from "./header";
 import Service from "./service";
 import HowItWorks from "./how-works";
+import Contact from "./contact";
 
 const SiteMain = () => {
     return (
@@ -9,6 +10,7 @@ const SiteMain = () => {
             <SiteMainHeader />
             <Service />
             <HowItWorks />
+            <Contact />
         </main>
     );
 }

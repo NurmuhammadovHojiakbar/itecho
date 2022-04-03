@@ -1,0 +1,126 @@
+.site-main__contact{
+    padding-top: 160px;
+    padding-bottom: 215px;
+    background: #B070FF url("../../../assets/images/contact-bg.png");
+}
+
+.contact__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.contact__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 25px;
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 128.3%;
+}
+
+.contact__title::before{
+    content: "";
+    height: 6px;
+    width: 125px;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.31) 123.02%);
+    border-radius: 1000px;
+    margin-bottom: 45px;
+    transform: translateX(-80%);
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 610px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact__form h3{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 119.7%;
+}
+
+.contact__form input{
+    width: 100%;
+    border-radius: 1000px;
+    padding: 25px 40px;
+    border: none;
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.contact__form input::placeholder{
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.contact__form button{
+    text-align: center;
+    padding: 25px 40px;
+    background: #32046B;
+    box-shadow: 0px 41px 51px rgba(118, 82, 164, 0.39);
+    border-radius: 1000px;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+}
+
+@media only screen and (max-width:1250px) {
+    .contact__title{
+        font-size: 45px;
+        line-height: 128.3%;
+    }
+
+    .contact__form h3{
+        font-size: 40px;
+        line-height: 119.7%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .site-main__contact{
+        padding-top: 45px;
+        padding-bottom: 70px;
+    }
+    
+    .contact__container{
+        flex-direction: column;
+    }
+
+    .contact__title{
+        flex-direction: column-reverse;
+        margin-right: 0;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .contact__title::before{
+        transform: none;
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .contact__title{
+        font-size: 30px;
+    }
+
+    .contact__form input{
+        padding: 25px;
+    }
+}
