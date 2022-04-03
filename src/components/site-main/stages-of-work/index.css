@@ -5,6 +5,7 @@
 }
 
 .work__title{
+    display: none;
     position: relative;
     text-align: center;
     margin-top: 0;
