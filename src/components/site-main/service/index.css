@@ -1,7 +1,15 @@
 .site-main__service{
     padding-top: 86px;
-    padding-bottom: 230px;
+    padding-bottom: 190px;
     background: url("../../../assets/images/service-bg.png") no-repeat center 100%;
+}
+
+.main-service__container{
+    overflow: hidden;
+}
+
+.main-service__help{
+    margin-bottom: 110px;
 }
 
 .service-help__title{
@@ -59,6 +67,19 @@
     width: 50%;
 }
 
+.service-clients__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-left: -100px;
+}
+
+.service-clients__item{
+    margin-left: 100px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1250px){
     .service-help__cards {
         flex-wrap: wrap;
@@ -75,11 +96,34 @@
     .service-help__card-move{
         margin-top: 0;
     }
+
+    .service-clients__list{
+        margin-left: -50px;
+    }
+
+    .service-clients__item{
+        margin-left: 50px;
+    }
 }
 
 @media only screen and (max-width: 800px){
     .service-help__title{
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .main-service__clients .service-help__title{
+        margin-bottom: 25px;
+    }
+
+    .service-clients__list{
+        margin-left: 0;
+        width: 1400px;
+    }
+
+    .service-clients__item{
+        margin-left: 0;
+        padding: 15px 30px;
+        width: 25%;
     }
 }
