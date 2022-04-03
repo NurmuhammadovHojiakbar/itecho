@@ -4,6 +4,7 @@ import Service from "./service";
 import HowItWorks from "./how-works";
 import Contact from "./contact";
 import StagesOfWork from "./stages-of-work";
+import Team from "./team";
 
 const SiteMain = () => {
     return (
@@ -13,6 +14,7 @@ const SiteMain = () => {
             <HowItWorks />
             <Contact />
             <StagesOfWork />
+            <Team />
         </main>
     );
 }

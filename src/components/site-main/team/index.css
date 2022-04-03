@@ -1,0 +1,145 @@
+.site-main__team{
+    position: relative;
+    z-index: 1;
+    top: 150px;
+    padding-top: 55px;
+    padding-bottom: 250px;
+    background: #e5e5e5 url("../../../assets/images/team-bg.png") no-repeat 0;
+}
+
+.team__container{
+    max-width: 1430px;
+}
+
+.team__title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 115.7%;
+    text-align: right;
+}
+
+.team__desc{
+    margin-top: 0;
+    margin-bottom: 120px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 119.7%;
+    color: #7C14FD;
+    text-align: right;
+}
+
+.team__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    margin-left: -50px;
+    margin-bottom: -150px;
+    padding: 0;
+}
+
+.team__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    max-width: 435px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    background: #FAF6FF;
+    border: 2px solid #fff;
+    box-shadow: 0px 30px 114px rgba(124, 20, 253, 0.14);
+    border-radius: 50px;
+    padding: 170px 40px 40px;
+    text-align: center;
+}
+
+.team__item .img-wrapper{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 100%;
+    border: 8px solid #b070ff;
+}
+
+.img-wrapper img{
+    border-radius: 100%;
+}
+
+.team__item-name{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.team__item-job{
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.team__item-address{
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #B070FF;
+    opacity: 0.8;
+}
+
+.team__item-connect{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 45px 12px 23px;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+    background: #7c14fd;
+    border-radius: 15px;
+    margin-top: auto;
+}
+
+.team__item-connect::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url("../../../assets/images/arrow-right-wight.png") no-repeat center;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .team__list{
+        margin-bottom: -100px;
+    }
+
+    .team__item{
+        max-width: 300px;
+        padding: 70px 25px 25px;
+        margin-bottom: 100px;
+    }
+
+    .team__item .img-wrapper{
+        width: 120px;
+        height: 120px;
+    }
+}

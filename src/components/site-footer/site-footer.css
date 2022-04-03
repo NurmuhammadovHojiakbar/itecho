@@ -1,4 +1,6 @@
 .site-footer{
+    position: relative;
+    z-index: 2;
     color: #fff;
     padding: 170px 25px 60px 25px;
     background: url("../../assets/images/footer-bg.png") no-repeat 0% center;
