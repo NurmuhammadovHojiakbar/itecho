@@ -3,6 +3,7 @@ import SiteMainHeader from "./header";
 import Service from "./service";
 import HowItWorks from "./how-works";
 import Contact from "./contact";
+import StagesOfWork from "./stages-of-work";
 
 const SiteMain = () => {
     return (
@@ -11,6 +12,7 @@ const SiteMain = () => {
             <Service />
             <HowItWorks />
             <Contact />
+            <StagesOfWork />
         </main>
     );
 }
