@@ -5,6 +5,7 @@ import HowItWorks from "./how-works";
 import Contact from "./contact";
 import StagesOfWork from "./stages-of-work";
 import Team from "./team";
+import Projects from "./projects";
 
 const SiteMain = () => {
     return (
@@ -14,6 +15,7 @@ const SiteMain = () => {
             <HowItWorks />
             <Contact />
             <StagesOfWork />
+            <Projects />
             <Team />
         </main>
     );
