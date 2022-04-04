@@ -24,21 +24,23 @@ const controllers = [
     },
 ]
 
+const images = [
+    WorkImgItem1,
+    WorkImgItem2,
+    WorkImgItem3,
+    WorkImgItem4,
+]
+
+const imagesMB = [
+    WorkImgItem1sm,
+    WorkImgItem2sm,
+    WorkImgItem3sm,
+    WorkImgItem4sm,
+]
+
 const StagesOfWork = () => {
 
     const { current, chooseHandler } = useSlider(4)
-    const images = [
-        WorkImgItem1,
-        WorkImgItem2,
-        WorkImgItem3,
-        WorkImgItem4,
-    ]
-    const imagesMB = [
-        WorkImgItem1sm,
-        WorkImgItem2sm,
-        WorkImgItem3sm,
-        WorkImgItem4sm,
-    ]
 
     return (
         <div className="site-main__work">
