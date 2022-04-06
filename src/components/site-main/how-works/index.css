@@ -252,6 +252,79 @@
     }
 }
 
+@media only screen and (max-width:800px){ 
+    
+    .site-main__how{
+        padding-top: 85px;
+        padding-bottom: 50px;
+    }
+    
+    .how__container .service-help__title::before{
+        width: 37px;
+        height: 41px;
+        top: 10px;
+    }
+    .how__container .service-help__title{
+        margin-bottom: 31px;
+    }
+
+    .how__card{
+        max-width: 422px;
+        padding: 38px 31px 23px;
+    }
+
+    .how__card .how__card-text{
+        max-width: 212px;
+        text-align: start;  
+    }
+
+    .how__card-text h4{
+        font-size: 15px;
+        line-height: 137.2%;
+        margin-bottom: 6px;
+    }
+    .how__card-text span{
+        margin-bottom: 6px;
+    }
+    
+    .how__card-text p{
+        font-size: 7.5px;
+        line-height: 170.7%;  
+    }
+
+    .how__card.how__card-right img{
+        top: unset;
+        right: unset;
+        bottom: -50px;
+        left: -50px;
+        transform: none;
+    }
+
+    .how__card.how__card-left img{
+        top: unset;
+        bottom: -50px;
+        left: -25px;
+    }
+
+    .how__item{
+        flex-direction: row;
+    }
+
+    .how__item-more{
+        padding: 10px;
+        font-size: 7.91667px;
+        line-height: 12px;
+        box-shadow: 0px 10.8333px 19.1667px #CFC5CC;
+        border-radius: 8.33333px
+    }
+
+    .how__item-more::after{
+        width: 5px;
+        height: 5px;
+    }
+}
+
+
 @media only screen and (max-width:620px){
     .how__card-text h4{
         font-size: 33.5909px;

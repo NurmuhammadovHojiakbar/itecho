@@ -134,8 +134,8 @@
 
 @media only screen and (max-width: 800px){
     .service-help__title{
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 19.8958px;
+        line-height: 119.7%;
     }
 
     .main-service__clients .service-help__title{
@@ -151,5 +151,49 @@
         margin-left: 0;
         padding: 15px 30px;
         width: 25%;
+    }
+
+    .service-help__card{
+        max-width: 135px;
+        width: 100%;
+        padding: 19px 13px;
+        border-radius: 19.1306px;
+    }
+
+    .service-help__card h3{
+        font-size: 9.56531px;
+        line-height: 162.7%;
+    }
+
+    .service-help__card p{
+        font-size: 6.88702px;
+        line-height: 162.7%;
+    }
+
+    .service-help__card:nth-child(2),.service-help__card:nth-child(3){
+        margin-top: 30px;
+    }
+    .service-help__card:nth-child(1) img{
+        width: 44px;
+        height: 44px;
+    }
+    .service-help__card:nth-child(2) img{
+        width: 56px;
+        height: 57px;
+    }
+    .service-help__card:nth-child(3) img{
+        width: 53px;
+        height: 48px;
+    }
+    .service-help__card:nth-child(4) img{
+        width: 56px;
+        height: 57px;
+    }
+    .service-clients__list{
+        width: unset;
+    }
+
+    .site-main__service{
+        padding: 10px 0;
     }
 }

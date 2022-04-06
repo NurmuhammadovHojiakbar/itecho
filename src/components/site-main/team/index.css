@@ -1,10 +1,11 @@
 .site-main__team{
     position: relative;
     z-index: 1;
-    top: 150px;
+    top: 200px;
     padding-top: 55px;
     padding-bottom: 250px;
     background: #e5e5e540 url("../../../assets/images/team-bg.png") no-repeat 0;
+    background-size: cover;
 }
 
 .team__container{
@@ -147,7 +148,76 @@
 
 @media only screen and (max-width: 800px) {
 
+    .team__container{
+        max-width: 640px;
+    }
+
+    .site-main__team{
+        padding-top: 23px;
+    }
+
+    .team__title{
+        font-size: 21.4905px;
+        line-height: 115.7%;    
+    }
+
+    .team__desc{
+        font-size: 9.9187px;
+        line-height: 119.7%;
+        margin-bottom: 80px;
+    }
+
     .team__list{
+        margin-left: -20px;
+        margin-bottom: -95px;
+    }
+
+    .team__item{
+        max-width: 180px;
+        width: 100%;
+        padding: 70px 15px 15px;
+        border-radius: 20.664px;
+        margin-left: 20px;
+        margin-bottom: 95px;
+    }
+
+    .team__item .img-wrapper{
+        width: 76px;
+        height: 76px;
+    }
+
+    .team__item-name{
+        font-size: 13.2249px;
+        line-height: 16px;
+        margin-bottom: 8px;
+    }
+
+    .team__item-job{
+        font-size: 8.26558px;
+        line-height: 12px;
+        margin-bottom: 6px;
+    }
+
+    .team__item-address{
+        font-size: 8.26558px;
+        line-height: 12px;
+        margin-bottom: 27px;
+    }
+
+    .team__item-connect{
+        font-size: 7.8523px;
+        line-height: 12px;
+        border-radius: 6.19919px;
+        padding: 5px 18px 5px 9px;
+    }
+
+    .team__item-connect::after{
+        width: 5px;
+        height: 5px;
+        background-size: cover;
+    }
+
+    /* .team__list{
         margin-bottom: -100px;
     }
 
@@ -160,5 +230,5 @@
     .team__item .img-wrapper{
         width: 120px;
         height: 120px;
-    }
+    } */
 }

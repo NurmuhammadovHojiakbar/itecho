@@ -14,7 +14,6 @@
 
 .main-header__left{
     width: 55%;
-    padding: 25px;
 }
 
 .site-heading{
@@ -131,40 +130,40 @@
 
 @keyframes rotate-1 {
     0% {
-        transform: scaleY(0.8) translateX(-37%) translateY(-52%) rotate(0deg);
+        transform: translateX(-35%) translateY(-40%) rotate(0deg);
     }
     100%{
-        transform: scaleY(0.8) translateX(-37%) translateY(-52%) rotate(360deg);
+        transform: translateX(-35%) translateY(-40%) rotate(360deg);
     }
 }
 @keyframes rotate-2 {
     0% {
-        transform: scaleY(0.8) translateX(37%) translateY(-52%) rotate(0deg);
+        transform: translateX(35%) translateY(-40%) rotate(0deg);
     }
     100%{
-        transform: scaleY(0.8) translateX(37%) translateY(-52%) rotate(360deg);
+        transform: translateX(35%) translateY(-40%) rotate(360deg);
     }
 }
 @keyframes rotate-3 {
     0% {
-        transform: scaleY(0.8) translateX(-37%) translateY(70%) rotate(0deg);
+        transform: translateX(-35%) translateY(70%) rotate(0deg);
     }
     100%{
-        transform: scaleY(0.8) translateX(-37%) translateY(70%) rotate(360deg);
+        transform: translateX(-35%) translateY(70%) rotate(360deg);
     }
 }
 @keyframes rotate-4 {
     0% {
-        transform: scaleY(0.8) translateX(37%) translateY(70%) rotate(0deg);
+        transform: translateX(35%) translateY(70%) rotate(0deg);
     }
     100%{
-        transform: scaleY(0.8) translateX(37%) translateY(70%) rotate(360deg);
+        transform: translateX(35%) translateY(70%) rotate(360deg);
     }
 }
 
 @media only screen and (max-width:1600px){
     .site-main__header{
-        padding-top: 116px;
+        padding-top: 25px;
     }
 
     .site-heading{
@@ -266,9 +265,6 @@
         background: url("../../../assets/images/header-btn-bg-sm.png") no-repeat center;
         background-size: contain;
     }
-}
-
-@media only screen and (max-width:950px){
 
     .site-main__header{
         background: url("../../../assets/images/header-bg-sm.png") no-repeat 0 100%;

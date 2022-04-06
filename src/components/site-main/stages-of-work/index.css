@@ -121,7 +121,59 @@
 }
 
 @media only screen and (max-width: 800px){
-    .work__title::before{
+
+    .work__title{
+        font-size: 21.6667px;
+        line-height: 137.2%;
+    }
+
+    .work__title::before, .work__title::after{
+        width: 77px;
+        height: 32px;
+    }
+
+    .work__cards{
+        max-width: 600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work__container .work__controllers{
+        transform: translateX(30%);
+    }
+
+    .work__container .work__controllers-wrapper{
+        margin-left: -8px;
+        transform: translateX(-200%);
+    }
+
+    .work__controllers-wrapper button{
+        padding: 0;
+        width: 5px;
+        height: 5px;
+        margin-left: 8px;
+    }
+
+    .work__controllers-wrapper button.active-button{
+        width: 10px;
+        height: 10px;
+    }
+
+    .work__controllers-button{
+        padding: 10px;
+        font-size: 7.91667px;
+        line-height: 12px;
+        border-radius: 8.33333px;
+    }
+
+    .work__controllers-button::after{
+        width: 5px;
+        height: 5px;
+        background-size: cover;
+    }
+
+    /* .work__title::before{
         display: none;
     }
 
@@ -134,5 +186,5 @@
         transform: none;
         bottom: -20%;
         left: 40%;
-    }
+    } */
 }

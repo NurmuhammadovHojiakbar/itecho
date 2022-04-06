@@ -96,26 +96,51 @@
 
 @media only screen and (max-width:800px) {
     .site-main__contact{
-        padding-top: 45px;
-        padding-bottom: 70px;
-    }
-    
-    .contact__container{
-        flex-direction: column;
+        padding-top: 67px;
+        padding-bottom: 90px;
     }
 
     .contact__title{
-        flex-direction: column-reverse;
-        margin-right: 0;
-        text-align: center;
-        align-items: center;
-        margin-bottom: 40px;
+        width: 251px;
+        font-size: 26.6667px;
+        line-height: 128.3%;
+        margin-right: 25px;
     }
 
     .contact__title::before{
-        transform: none;
-        margin-bottom: 0;
-        margin-top: 25px;
+        width: 52px;
+        height: 2.5px;
+        transform: translateX(-70%);
+        margin-bottom: 20px;
+    }
+
+    .contact__form{
+        max-width: 253px;
+        width: 100%;
+    }
+
+    .contact__form h3{
+        font-size: 20.8333px;
+        line-height: 119.7%;
+        margin-bottom: 20px;
+    }
+
+    .contact__form input{
+        padding: 10px 15px;
+        font-size: 9.16667px;
+        line-height: 12px;
+        margin-bottom: 8px;
+    }
+
+    .contact__form input::placeholder{
+        font-size: 9.16667px;
+        line-height: 12px;
+    }
+
+    .contact__form button{
+        padding: 10px 15px;
+        font-size: 10px;
+        line-height: 13px;
     }
 }
 
