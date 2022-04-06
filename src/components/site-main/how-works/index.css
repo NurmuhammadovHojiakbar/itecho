@@ -298,12 +298,14 @@
         bottom: -50px;
         left: -50px;
         transform: none;
+        max-width: 40%;
     }
 
     .how__card.how__card-left img{
         top: unset;
         bottom: -50px;
         left: -25px;
+        max-width: 40%;
     }
 
     .how__item{
@@ -325,15 +327,83 @@
 }
 
 
-@media only screen and (max-width:620px){
+@media only screen and (max-width:699px){
+    .how__container.container{
+        padding-top: 90px;
+    }
+
+    .how__container .service-help__title{
+        font-size: 36px;
+        line-height: 137.2%;
+        text-align: right;
+        margin-bottom: 90px;
+        max-width: 80%;
+        margin-left: auto;
+    }
+    
+    .how__card{
+        padding: 95px 70px 40px 45px;
+        max-width: 82%;
+    }
+
+    .how__card .how__card-text{
+        max-width: 350px;
+    }
+
+    .how__card-left .how__card-text{
+        text-align: right;
+        margin-left: auto;
+    }
+    .how__card-right .how__card-text{
+        margin-right: auto;
+        margin-left: unset;
+    }
+
     .how__card-text h4{
         font-size: 33.5909px;
         line-height: 112.2%;
+        margin-bottom: 14px;
+    }
+
+    .how__card-text span{
+        margin-bottom: 12px;
     }
 
     .how__card-text p{
         font-size: 16.7954px;
         line-height: 170.7%;
+    }
+
+    .how__card.how__card-left img{
+        bottom: unset;
+        left: 0;
+        top: 0;
+        transform: translateX(-25px) translateY(-25px);
+    }
+
+    .how__card.how__card-right img{
+        bottom: unset;
+        left: unset;
+        right: 0;
+        top: 0;
+        transform: translateX(25px) translateY(-25px);
+    }
+
+    .how__item{
+        flex-direction: column-reverse;
+    }
+
+    .how__item-more{
+        font-size: 19px;
+        line-height: 30px;
+        box-shadow: 0px 26px 46px #cfc5cc;
+        border-radius: 20px;
+        padding: 24px;
+    }
+
+    .how__item-more::after{
+        width: 12px;
+        height: 12px;
     }
 
     .how__card-left{
@@ -342,5 +412,15 @@
 
     .how__card-right{
         right: unset;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .how__item-more{
+        margin-left: 30px;
+    }
+
+    .how__card{
+        max-width: 100%;
     }
 }

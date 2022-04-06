@@ -176,8 +176,16 @@
         height: 5px;
         background-size: cover;
     }
+}
 
-    /* .work__title::before{
+@media only screen and (max-width: 699px){
+
+    .work__title{
+        font-size: 48px;
+        line-height: 137.2%;
+    }
+
+    .work__title::before{
         display: none;
     }
 
@@ -190,5 +198,36 @@
         transform: none;
         bottom: -20%;
         left: 40%;
-    } */
+    }
+
+    .work__cards{
+        display: none;
+    }
+
+    .work__cards-sm{
+        display: flex;
+    }
+    .work__container .work__controllers{
+        transform: none;
+    }
+    .work__container .work__controllers-wrapper{
+        transform: none;
+        margin-left: -21px;
+        margin-right: 0;
+    }
+
+    .work__controllers-wrapper button{
+        width: 12px;
+        height: 12px;
+        margin-left: 21px;
+    }
+
+    .work__controllers-wrapper button.active-button{
+        width: 24px;
+        height: 24px;
+    }
+
+    .work__controllers-button{
+        display: none;
+    }
 }

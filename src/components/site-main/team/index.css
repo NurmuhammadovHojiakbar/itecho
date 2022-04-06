@@ -232,3 +232,63 @@
         height: 120px;
     } */
 }
+
+@media only screen and (max-width: 699px) {
+    .site-main__team{
+        padding-top: 100px;
+    }
+    
+    .team__title{
+        text-align: center;
+        font-size: 40px;
+        line-height: 115.7%;
+    }
+    .team__desc {
+        font-size: 22px;
+        line-height: 119.7%;
+        text-align: center;
+    }
+
+    .team__list{
+        margin-bottom: -110px;
+    }
+
+    .team__item{
+        margin-bottom: 110px;
+        padding: 130px 30px 30px;
+        max-width: 335px;
+    }
+
+    .team__item .img-wrapper{
+        width: 141px;
+        height: 141px;
+    }
+
+    .team__item-name{
+        margin-bottom: 15px;
+        font-size: 26.8376px;
+        line-height: 32px;
+    }
+    .team__item-job{
+        margin-bottom: 11px;
+        font-size: 16.7735px;
+        line-height: 23px;
+    }
+    .team__item-address{
+        font-size: 16.7735px;
+        line-height: 23px;
+        margin-bottom: 48px;
+    }
+
+    .team__item-connect{
+        padding: 10px 18px;
+        font-size: 15.9348px;
+        line-height: 25px;
+    }
+
+    .team__item-connect::after{
+        width: 8px;
+        height: 8px;
+        background-size: contain;
+    }
+}
