@@ -91,7 +91,7 @@ const StagesOfWork = () => {
                             ))
                         }
                     </div>
-                    <a className="work__controllers-button">Узнать подробнее</a>
+                    <a className="work__controllers-button" href="#start">Узнать подробнее</a>
                 </div>
             </div>
         </div>
