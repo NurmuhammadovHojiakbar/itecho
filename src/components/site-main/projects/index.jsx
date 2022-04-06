@@ -73,7 +73,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="work__controllers">
-                    <a className="work__controllers-button-left">Узнать еще</a>
+                    <a className="work__controllers-button-left" href="#start">Узнать еще</a>
                     <div className="work__controllers-wrapper">
                         {
                             controllers.map(b => (
