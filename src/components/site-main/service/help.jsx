@@ -9,28 +9,36 @@ const help = [
         title: "Увеличить",
         desc: "прибыль компании",
         img: StartupImg,
-        class: "service-help__card"
+        class: "service-help__card",
+        width: "116",
+        height: "116"
     },
     {
         id: 2,
         title: "Автоматизировать",
         desc: "взаимодействие с клиентами",
         img: AutomizationImg,
-        class: "service-help__card service-help__card-move"
+        class: "service-help__card service-help__card-move",
+        width: "160",
+        height: "164"
     },
     {
         id: 3,
         title: "Оптимизировать",
         desc: "бинес-процессы",
         img: OptimizationImg,
-        class: "service-help__card service-help__card-move"
+        class: "service-help__card service-help__card-move",
+        width: "171",
+        height: "171"
     },
     {
         id: 4,
         title: "Перенести",
         desc: "бизнес в облако",
         img: SaasImg,
-        class: "service-help__card"
+        class: "service-help__card",
+        width: "147",
+        height: "90"
     },
 ]
 
@@ -44,7 +52,12 @@ const Help = () => {
                         <div className={ item.class } key={ item.id }>
                             <h3>{ item.title }</h3>
                             <p>{ item.desc }</p>
-                            <img src={ item.img } alt={ item.title } />
+                            <img 
+                                src={ item.img } 
+                                alt={ item.title } 
+                                width={ item.width }
+                                height={ item.height }    
+                            />
                         </div>
                     ))
                 }

@@ -4,7 +4,7 @@
     top: 150px;
     padding-top: 55px;
     padding-bottom: 250px;
-    background: #e5e5e5 url("../../../assets/images/team-bg.png") no-repeat 0;
+    background: #e5e5e540 url("../../../assets/images/team-bg.png") no-repeat 0;
 }
 
 .team__container{
@@ -22,7 +22,7 @@
 
 .team__desc{
     margin-top: 0;
-    margin-bottom: 120px;
+    margin-bottom: 195px;
     font-weight: 400;
     font-size: 24px;
     line-height: 119.7%;
@@ -124,6 +124,25 @@
     height: 12px;
     background: url("../../../assets/images/arrow-right-wight.png") no-repeat center;
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .team__list{
+        margin-left: -45px;
+        margin-bottom: -210px;
+    }
+
+    .team__item{
+        max-width: 400px;
+        width: 100%;
+        margin-left: 45px;
+        margin-bottom: 210px;
+    }
+
+    .img-wrapper{
+        width: 170px;
+        height: 170px;
+    }
 }
 
 @media only screen and (max-width: 800px) {

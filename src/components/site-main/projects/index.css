@@ -1,10 +1,14 @@
 .site-main__projects{
     padding-top: 230px;
-    background: url("../../../assets/images/projects-bg.png") no-repeat;
+    background: url("../../../assets/images/projects-bg.png") no-repeat,
 }
 
 .site-main__projects .service-help__title{
     margin-bottom: 125px;
+}
+
+.projects__container{
+    max-width: 1440px;
 }
 
 .projects__list{
@@ -14,7 +18,7 @@
 .projects__item{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .projects__item-img{
@@ -64,6 +68,24 @@
     font-size: 22px;
     line-height: 162.7%;
     text-align: justify;
+}
+
+.work__controllers-button-left{
+    padding: 24px 30px;
+    background: #7C14FD;
+    box-shadow: 0px 26px 46px rgba(124, 20, 253, 0.35);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 480px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+    display: inline-block;
+}
+
+.projects__container .work__controllers-wrapper{
+    transform: translateX(100%);
 }
 
 @media only screen and (max-width: 1300px){

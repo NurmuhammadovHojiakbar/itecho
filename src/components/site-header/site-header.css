@@ -40,11 +40,11 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    margin-left: -24px;
+    margin-left: -40px;
 }
 
 .site-header__item{
-    margin-left: 24px;
+    margin-left: 40px;
 }
 
 .site-header__link{
@@ -57,7 +57,7 @@
 
 .site-header__start-link{
     text-decoration: none;
-    margin-left: 45px;
+    margin-left: 55px;
     font-size: 16px;
     line-height: 19px;
     display: inline-block;

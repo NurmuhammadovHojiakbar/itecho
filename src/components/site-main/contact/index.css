@@ -17,7 +17,7 @@
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 25px;
+    margin-right: auto;
     max-width: 600px;
     font-weight: 400;
     font-size: 64px;
@@ -35,6 +35,8 @@
 }
 
 .contact__form{
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     max-width: 610px;
@@ -76,6 +78,8 @@
     font-size: 24px;
     line-height: 31px;
     color: #fff;
+    border: none;
+    outline: none;
 }
 
 @media only screen and (max-width:1250px) {

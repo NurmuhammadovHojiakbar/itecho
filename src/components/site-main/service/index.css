@@ -1,7 +1,7 @@
 .site-main__service{
     padding-top: 86px;
     padding-bottom: 190px;
-    background: url("../../../assets/images/service-bg.png") no-repeat center 100%;
+    background: #e5e5e540 url("../../../assets/images/service-bg.png") no-repeat center 100%;
 }
 
 .main-service__container{
@@ -63,9 +63,6 @@
     font-weight: 400;
 }
 
-.service-help__card img{
-    width: 50%;
-}
 
 .service-clients__list{
     display: flex;
@@ -78,6 +75,35 @@
 .service-clients__item{
     margin-left: 100px;
     text-align: center;
+}
+
+
+@media only screen and (max-width:1440px){
+    .service-help__card{
+        max-width: 275px;
+        padding: 35px 30px;
+    }
+
+    .service-help__card p{
+        margin-bottom: 20px;
+    }
+
+    .service-help__card:nth-child(1) img{
+        width: 91px;
+        height: 91px;
+    }
+    .service-help__card:nth-child(2) img{
+        width: 115px;
+        height: 117px;
+    }
+    .service-help__card:nth-child(3) img{
+        width: 110px;
+        height: 99px;
+    }
+    .service-help__card:nth-child(4) img{
+        width: 115px;
+        height: 117px;
+    }
 }
 
 @media only screen and (max-width: 1250px){

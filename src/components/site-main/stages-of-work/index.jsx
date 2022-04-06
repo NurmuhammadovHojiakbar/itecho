@@ -25,10 +25,31 @@ const controllers = [
 ]
 
 const images = [
-    WorkImgItem1,
-    WorkImgItem2,
-    WorkImgItem3,
-    WorkImgItem4,
+    {
+        img: WorkImgItem1,
+        style: {
+            "box-shadow": "0px 69px 114px rgba(124, 20, 253, 0.08)",
+            "border-radius": "20px"
+        }
+    },
+    {
+        img: WorkImgItem2,
+        style: {
+            
+        }
+    },
+    {
+        img: WorkImgItem3,
+        style: {
+            
+        }
+    },
+    {
+        img: WorkImgItem4,
+        style: {
+            
+        }
+    },
 ]
 
 const imagesMB = [
@@ -47,8 +68,14 @@ const StagesOfWork = () => {
             <div className="work__container container">
                 <h2 className="work__title">Этапы работ</h2>
                 <div className="work__cards">
-                    <div className="work__card">
-                        <img src={ images[current - 1] } alt="Slider Item" />
+                    <div 
+                        className="work__card"                  
+                    >
+                        <img 
+                            src={ images[current - 1].img } 
+                            alt="Slider Item"     
+                            style={ images[current - 1].style }                             
+                        />
                     </div>
                 </div>
                 <div className="work__cards work__cards-sm">
@@ -64,6 +91,7 @@ const StagesOfWork = () => {
                             ))
                         }
                     </div>
+                    <a className="work__controllers-button">Узнать подробнее</a>
                 </div>
             </div>
         </div>

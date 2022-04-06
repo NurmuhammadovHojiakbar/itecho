@@ -13,7 +13,12 @@ const HowItWorks = () => {
                     <div className="how__item">
                         <div className="how__card how__card-left">
                             <h3>01</h3>
-                            <img src={AnaliticImg} alt="how it works" />
+                            <img 
+                                src={AnaliticImg} 
+                                alt="how it works" 
+                                width=""
+                                height=""    
+                            />
                             <div className="how__card-text">
                                 <h4>Аналитика</h4>
                                 <span />
@@ -25,7 +30,12 @@ const HowItWorks = () => {
                         <a className="how__item-more" href="#projects">Узнать подробнее</a>
                         <div className="how__card how__card-right">
                             <h3>02</h3>
-                            <img src={DesignImg} alt="how it works" />
+                            <img 
+                                src={DesignImg} 
+                                alt="how it works" 
+                                width=""
+                                height=""    
+                            />
                             <div className="how__card-text">
                                 <h4>Ui, Ux проектирование</h4>
                                 <span />
@@ -36,7 +46,12 @@ const HowItWorks = () => {
                     <div className="how__item">
                         <div className="how__card how__card-left">
                             <h3>03</h3>
-                            <img src={RazrabotkaImg} alt="how it works" />
+                            <img 
+                                src={RazrabotkaImg} 
+                                alt="how it works" 
+                                width=""
+                                height=""    
+                            />
                             <div className="how__card-text">
                                 <h4>Разработка</h4>
                                 <span />
@@ -47,7 +62,12 @@ const HowItWorks = () => {
                     <div className="how__item">
                         <div className="how__card how__card-right">
                             <h3>04</h3>
-                            <img src={TestImg} alt="how it works" />
+                            <img 
+                                src={TestImg} 
+                                alt="how it works" 
+                                width=""
+                                height=""    
+                            />
                             <div className="how__card-text">
                                 <h4>Тестирование и запуск</h4>
                                 <span />

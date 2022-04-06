@@ -73,13 +73,14 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="work__controllers">
+                    <a className="work__controllers-button-left">Узнать еще</a>
                     <div className="work__controllers-wrapper">
                         {
                             controllers.map(b => (
                                 <button className={`${current === b.id ? "active-button" : ""}`} key={ b.id } onClick={() => chooseHandler(b.id)} />
                             ))
                         }
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>

@@ -38,20 +38,33 @@
     transform: translateY(50%) translateX(20%);
 }
 
+.work__container .work__controllers{
+    max-width: 600px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateX(50%);
+}
+
 .work__controllers{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+}
+
+.work__container .work__controllers-wrapper{
+    transform: translateX(-50%);
 }
 
 .work__controllers-wrapper{
     margin-left: -20px;
+    margin-right: auto;
     display: inline-flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .work__controllers-wrapper button{
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
     background-color: #8D3AF3;
     border: none;
@@ -75,15 +88,39 @@
     display: none;
 }
 
+.work__controllers-button{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    background: #7C14FD;
+    box-shadow: 0px 26px 46px rgba(124, 20, 253, 0.35);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.work__controllers-button::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url("../../../assets/images/arrow-right-wight.png") no-repeat center;
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 1240px){
+    .work__container .work__controllers{
+        transform: none;
+    }
+
+    .work__container .work__controllers-wrapper{
+        transform: none;
+        margin-right: 25px;
+    }
+}
+
 @media only screen and (max-width: 800px){
-    .work__cards{
-        display: none;
-    }
-
-    .work__cards-sm{
-        display: flex;
-    }
-
     .work__title::before{
         display: none;
     }
