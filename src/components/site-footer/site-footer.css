@@ -125,6 +125,11 @@
 
 @media only screen and (max-width:800px){
 
+    .site-footer{
+        padding: 60px 25px 25px;
+        background: url("../../assets/images/footer-bg-md.png") no-repeat center 0;
+    }
+
     .site-footer__left svg{
         width: 77px;
         height: 32px;
@@ -155,6 +160,14 @@
     .address-info__social-links svg{
         width: 10px;
         height: 10px;
+    }
+
+    .address-info p{
+        margin-bottom: 21px;
+    }
+
+    .site-footer__right{
+        align-items: center;
     }
     /* .site-footer__container{
         flex-direction: column;
