@@ -227,6 +227,7 @@
         line-height: 24px;
         padding: 18px 25px;
         max-width: 100%;
+        text-decoration: none;
     }
 }
 
@@ -254,5 +255,49 @@
     .projects__item-card-body{
         font-size: 18px;
         line-height: 162.7%;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .projects__container{
+        max-width: 285px;
+    }
+
+    .site-main__projects .service-help__title{
+        margin-bottom: 20px;
+        font-size: 28.1579px;
+        line-height: 115.7%;
+    }
+
+    .projects__item-card{
+        padding: 18px;
+        box-shadow: 0px 16.1642px 63.5419px rgba(124, 20, 253, 0.35);
+        border-radius: 27.8693px;
+    }
+
+    .media img{
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .media h3{
+        font-size: 15.0494px;
+        line-height: 162.7%;
+    }
+
+    .media p{
+        font-size: 11.1477px;
+        line-height: 118.2%;
+    }
+
+    .projects__item-card-body{
+        font-size: 12.2625px;
+        line-height: 162.7%;
+    }
+
+    .work__controllers-button-left{
+        padding: 13px 15px;
+        font-size: 13.0844px;
+        line-height: 17px;
     }
 }

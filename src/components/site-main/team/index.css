@@ -292,3 +292,58 @@
         background-size: contain;
     }
 }
+
+@media only screen and (max-width: 374px) {
+    .site-main__team{
+        padding-top: 60px;
+    }
+
+    .team__title{
+        font-size: 26.75px;
+        line-height: 115.7%;
+        margin-bottom: 6px;
+    }
+
+    .team__desc{
+        font-size: 14.7125px;
+        line-height: 119.7%;
+        margin-bottom: 67px;
+    }
+
+    .team__list{
+        margin-bottom: -74px;
+    }
+
+    .team__item{
+        margin-bottom: 74px;
+        padding: 87px 20px 20px;
+        max-width: 225px;
+    }
+
+    .team__item .img-wrapper{
+        width: 94px;
+        height: 94px;
+    }
+
+    .team__item-name{
+        font-size: 17.9476px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+    .team__item-job{
+        font-size: 11.2173px;
+        line-height: 16px;
+        margin-bottom: 7px;
+    }
+    .team__item-address{
+        font-size: 11.2173px;
+        line-height: 16px;
+        margin-bottom: 32px;
+    }
+
+    .team__item-connect{
+        font-size: 10.6564px;
+        line-height: 17px;
+        padding: 5px 12px;
+    }
+}

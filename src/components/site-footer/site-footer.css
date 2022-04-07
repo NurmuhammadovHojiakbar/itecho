@@ -235,7 +235,6 @@
         margin-bottom: 40px;
     }
     .address-info__social{
-        margin-bottom: 60px;
         margin-left: -18.5px;
     }
 
@@ -245,5 +244,40 @@
     .address-info__social-links svg{
         width: 20px;
         height: 20px;
+    }
+}
+
+@media only screen and (max-width:374px){
+    .site-footer__left svg{
+        width: 105px;
+        height: 43px;
+        margin-bottom: 7px;
+    }
+
+    .site-footer__left p{
+        font-size: 19.7392px;
+        line-height: 128.3%;
+    }
+
+    .address-info{
+        margin-bottom: 43px;
+    }
+
+    .address-info__social{
+        margin-left: -12px;
+    }
+    .address-info__social-links{
+        margin-left: 12px;
+    }
+    .address-info__social-links svg{
+        width: 13px;
+        height: 13px;
+    }
+    .address-info p{
+        margin-bottom: 30px;
+    }
+    .address-info p, .site-footer__link{
+        font-size: 13.5355px;
+        line-height: 18px;
     }
 }

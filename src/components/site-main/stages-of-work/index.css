@@ -231,3 +231,36 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 374px) {
+    .site-main__work{
+        padding-top: 20px;
+    }
+
+    .work__title{
+        font-size: 32.1px;
+        line-height: 137.2%;
+        margin-bottom: 10px;
+    }
+
+    .work__title::after{
+        width: 54px;
+        height: 2px;
+        transform: translateX(-50%);
+    }
+
+    .work__container .work__controllers-wrapper{
+        margin-left: -14px;
+    }
+
+    .work__controllers-wrapper button{
+        width: 8px;
+        height: 8px;
+        margin-left: 14px;
+    }
+
+    .work__controllers-wrapper button.active-button{
+        width: 16px;
+        height: 16px;
+    }
+}

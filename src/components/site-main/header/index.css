@@ -381,3 +381,14 @@
         padding: 12px 19px;
     }
 }
+
+@media only screen and (max-width: 374px) {
+    .site-main__header{
+        padding-top: 10px;
+    }
+
+    .main-header__container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
