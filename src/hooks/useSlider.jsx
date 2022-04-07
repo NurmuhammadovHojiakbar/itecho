@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export default function useSlider(count){
+export default function useSlider(count,time){
     
     const [current, setCurrent] = useState(1)
 
@@ -12,7 +12,7 @@ export default function useSlider(count){
             }else{
                 setCurrent(1)
             }
-        },5000)
+        },time)
 
         return () => clearInterval(interval)
 

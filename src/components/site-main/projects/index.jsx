@@ -51,7 +51,7 @@ const item = [
 
 const Projects = () => {
 
-    const { chooseHandler,current } = useSlider(4)
+    const { chooseHandler,current } = useSlider(4,5000)
 
     return (
         <div className="site-main__projects">

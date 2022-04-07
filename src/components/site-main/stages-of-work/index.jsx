@@ -61,7 +61,7 @@ const imagesMB = [
 
 const StagesOfWork = () => {
 
-    const { current, chooseHandler } = useSlider(4)
+    const { current, chooseHandler } = useSlider(4,5000)
 
     return (
         <div className="site-main__work">

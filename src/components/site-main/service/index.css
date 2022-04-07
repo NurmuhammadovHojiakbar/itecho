@@ -72,6 +72,10 @@
     margin-left: -100px;
 }
 
+.service-clients__list-sm{
+    display: none;
+}
+
 .service-clients__item{
     margin-left: 100px;
     text-align: center;
@@ -199,6 +203,22 @@
 }
 
 @media only screen and (max-width: 699px){
+    .service-clients__list{
+        display: none;
+    }
+
+    .service-clients__list-sm{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service-clients__item-sm{
+        text-align: center;
+        margin-bottom: 56px;
+        max-width: 320px;
+    }
+
     .site-main__service{
         padding-top: 30px;
     }
@@ -255,7 +275,7 @@
 
 @media only screen and (max-width: 374px) {
 
-    .service-clients__item{
+    .service-clients__item-sm{
         max-width: 283px;
         width: 100%;
     }
