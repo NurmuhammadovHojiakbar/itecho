@@ -16,7 +16,7 @@ export default function useSlider(count,time){
 
         return () => clearInterval(interval)
 
-    },[current,count])
+    },[current,count,time])
     
     function chooseHandler(num){
         setCurrent(num)
