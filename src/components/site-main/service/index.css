@@ -254,6 +254,11 @@
 }
 
 @media only screen and (max-width: 374px) {
+
+    .service-clients__item{
+        max-width: 283px;
+        width: 100%;
+    }
     .service-help__title{
         font-size: 32.1px;
         line-height: 119.7%;
